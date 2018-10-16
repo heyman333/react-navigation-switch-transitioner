@@ -32,7 +32,8 @@
   },
   "homepage": "https://github.com/elyalvarado/react-navigation-switch-transitioner#readme",
   "dependencies": {
-    "hoist-non-react-statics": "^3.0.1"
+    "hoist-non-react-statics": "^3.0.1",
+    "react-native-reanimated": "^1.0.0 || ^1.0.0-alpha",
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -63,7 +64,6 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-reanimated": "^1.0.0 || ^1.0.0-alpha",
     "react-navigation": ">=2.0 || ^2.0.0-beta"
   },
   "jest": {
